@@ -1,13 +1,17 @@
 ---
 ---
 
-div {
+a {
+    color: red;
+}
+
+#exec-bio {
+    background-color: lightgray;
+}
+
+.bio-box {
     border: 1px solid black;
     a {
         color: green;
     }
-}
-
-a {
-    color: red;
 }
