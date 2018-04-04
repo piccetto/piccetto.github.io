@@ -5,33 +5,22 @@ a {
     color: red;
 }
 
-#orange-link {
-    color: orange;
+div {
+    border: 1px solid green;
 }
 
-#exec-bio {
-    background-color: lightgray;
-}
 
 .bio-box {
     border: 1px solid black;
+}
+
+.bio-copy {
     a {
         color: green;
     }
 }
 
-.azure-box {
-    background-color: azure;
-=======
-.bio-box {
-    border: 1px solid black;
-}
-
-.bio-copy a {
-    color: green;
-}
 
 .social-link {
     color: rgb(38,162,216);
->>>>>>> master
 }
