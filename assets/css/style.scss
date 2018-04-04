@@ -7,7 +7,12 @@ a {
 
 .bio-box {
     border: 1px solid black;
-    a {
-        color: green;
-    }
+}
+
+.bio-copy a {
+    color: green;
+}
+
+.social-link {
+    color: rgb(38,162,216);
 }
