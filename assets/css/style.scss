@@ -1,8 +1,14 @@
 ---
 ---
+$twitter-dark-blue: #0084b4 ;
+$twitter-logo-blue: #00aced;
+$twitter-verified-blue: #1dcaff;
+$twitter-background-blue: #c0deed;
+$twitter-dark-alpha: rgba(0, 132, 180,0.5);
+$social-background: rgba(150,150,150,0.5);
 
 a {
-    color: red;
+    color: #f00;
 }
 
 .bio-box {
@@ -14,5 +20,6 @@ a {
 }
 
 .social-link {
-    color: rgb(38,162,216);
+    background: $social-background;
+    color: $twitter-dark-blue;
 }
