@@ -6,17 +6,20 @@ $twitter-verified-blue: #1dcaff;
 $twitter-background-blue: #c0deed;
 $twitter-dark-alpha: rgba(0, 132, 180,0.5);
 $social-background: rgba(150,150,150,0.5);
+$black: #333;
+$green: #005500;
+$red: #8f0000;
 
 a {
-    color: #f00;
+    color: $red;
 }
 
 .bio-box {
-    border: 1px solid black;
+    border: 1px solid $black;
 }
 
 .bio-copy a {
-    color: green;
+    color: $green;
 }
 
 .social-link {
