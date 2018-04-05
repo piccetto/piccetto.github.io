@@ -1,5 +1,7 @@
 ---
 ---
+
+// Variables
 $twitter-dark-blue: #0084b4 ;
 $twitter-logo-blue: #00aced;
 $twitter-verified-blue: #1dcaff;
@@ -10,12 +12,24 @@ $black: #333;
 $green: #005500;
 $red: #8f0000;
 
+// Global styles
+body {
+
+}
 a {
     color: $red;
 }
 
+h2 {
+    font-size: 30px;
+}
+
+// Bio styles
+.bio-wrapper {
+}
 .bio-box {
     border: 1px solid $black;
+    width: 50%;
 }
 
 .bio-copy a {
