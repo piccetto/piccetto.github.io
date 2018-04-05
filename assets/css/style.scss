@@ -13,9 +13,7 @@ $green: #005500;
 $red: #8f0000;
 
 // Global styles
-body {
 
-}
 a {
     color: $red;
 }
@@ -29,9 +27,12 @@ h2 {
     font-size: 24px;
 }
 .bio-box {
-    font-size: 1em;
+    font-size: 1rem;
     border: 1px solid $black;
     width: 50%;
+    h3 {
+        font-size: 1.5em;
+    }
 }
 
 .bio-copy {
