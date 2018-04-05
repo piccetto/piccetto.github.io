@@ -28,8 +28,14 @@ h2 {
 .bio-wrapper {
 }
 .bio-box {
+    margin: 10%;
     border: 1px solid $black;
     width: 50%;
+    font-size: 150%;
+}
+
+.bio-copy {
+    font-size: 150%;
 }
 
 .bio-copy a {
@@ -37,6 +43,5 @@ h2 {
 }
 
 .social-link {
-    background: $social-background;
     color: $twitter-dark-blue;
 }
