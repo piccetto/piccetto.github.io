@@ -26,16 +26,16 @@ h2 {
 
 // Bio styles
 .bio-wrapper {
+    font-size: 24px;
 }
 .bio-box {
-    margin: 10%;
+    font-size: 1em;
     border: 1px solid $black;
     width: 50%;
-    font-size: 150%;
 }
 
 .bio-copy {
-    font-size: 150%;
+    font-size: 1em;
 }
 
 .bio-copy a {
@@ -43,5 +43,6 @@ h2 {
 }
 
 .social-link {
+    background: $social-background;
     color: $twitter-dark-blue;
 }
