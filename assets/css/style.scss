@@ -78,7 +78,7 @@ h2 {
 
 .bio-copy {
     font-size: 1em;
-
+    line-height: 1.5;
     a {
         color: $green;
     }
@@ -92,14 +92,25 @@ h2 {
 
     &>li {
         display: inline-block;
+        margin: 0 0.5em;
     }
 
 }
 
 .social-link {
     background: $social-background;
-    color: $twitter-dark-blue;
+    border-radius: 99px;
+    color: #fff;
+    font-family: helvetica, arial, sans;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    line-height: 1;
     display: inline-block;
-    height: 36px;
-    width: 36px;
+    box-sizing: border-box;
+    padding-top: .85em;
+    height: 2.5em;
+    width: 2.5em;
 }
